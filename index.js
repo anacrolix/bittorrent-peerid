@@ -279,6 +279,7 @@ function getAzStyleClientVersion (client, peerId) {
   addAzStyle('FT', 'FoxTorrent/RedSwoosh')
   addAzStyle('GR', 'GetRight', '1.2')
   addAzStyle('GS', 'GSTorrent')// TODO: Format is v"abcd"
+  addAzStyle('GT', 'anacrolix/torrent', VER_AZ_TRANSMISSION_STYLE) // https://github.com/anacrolix/torrent/blob/144b57016ca9c03b8dc28eb86271f152392ba18e/version/version.go#L15
   addAzStyle('HL', 'Halite', VER_AZ_THREE_DIGITS)
   addAzStyle('HN', 'Hydranode')
   addAzStyle('KG', 'KGet')
